@@ -4,12 +4,14 @@
         {
             "type": "al",
             "request": "launch",
-            "name": "Your own server",
-            "server": "http://localhost",
-            "serverInstance": "DynamicsNav110",
-            "authentication": "Windows",
+            "name": "Default",
+            "server": "http://192.168.0.59",
+            "serverInstance": "nav",
+            "authentication": "UserPassword",
             "startupObjectId": 22,
-            "port": 9049
+           //"port": 9049,
+           "schemaUpdateMode": "Recreate"
+            
         }
     ]
 }
